@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    background-image: url(../img/nusamaibridge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    overflow-x: hidden;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.box1 {
+    display:flex;
+    width:100%;
+    padding: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+}
+.profile-name{
+    margin-top: 0;
+    padding-left: 100px;
+    font-size: 72pt;
+    text-align: center;
+}
+.h1{
+    font-style: italic;
+}
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    margin:inherit;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url(/img/portfolio.jpg);
+    border-radius: 60%;
+}
+.role {
+    margin: auto;
+    color: white;
+}
+.home{
+    color: white;
+    margin: auto;
+}
+.box2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.profile-favorite1{
+    background-image: url(/img/soccerball.jpg);
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-align-last: center;
+}
+.profile-favorite2{
+    background-image: url(/img/rausu.jpg);
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-align-last: center;
+}
+.profile-favorite3{
+    background-image: url(/img/otherworld.jpg);
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-align-last: center;
+}
+.profile-favorite4{
+    background-image: url(/img/rock.jpg);
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-align-last: center;
+}
+.profile-favorite5{
+    background-image: url(/img/japan.jpg);
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-align-last: center;
+}
+
+.caption{
+    float: left;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.301);
+    font-size: 34pt;
+}
+
